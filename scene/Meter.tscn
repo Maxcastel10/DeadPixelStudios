@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=3 uid="uid://duyngpqm4tbd2"]
+
+[ext_resource type="Script" path="res://scripts/meter.gd" id="1_3taxy"]
+[ext_resource type="Texture2D" uid="uid://clb4ppbc34x6m" path="res://assets/circularmeter/progress-bar-circle.png" id="2_3ohjq"]
+[ext_resource type="Texture2D" uid="uid://csb85qmu3jcs5" path="res://assets/aryan assets/emotes/Tilesheets/vector_style3.png" id="2_ul8in"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n17a5"]
+atlas = ExtResource("2_ul8in")
+region = Rect2(0, 0, 32, 38)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mwvjn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n17a5")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3taxy")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_mwvjn")
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+layout_mode = 0
+offset_left = -15.0
+offset_top = -18.0
+offset_right = 113.0
+offset_bottom = 110.0
+scale = Vector2(0.239308, 0.235227)
+value = 100.0
+fill_mode = 4
+texture_under = ExtResource("2_3ohjq")
+texture_progress = ExtResource("2_3ohjq")
+tint_progress = Color(0.54099, 0.54099, 0.54099, 1)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.1
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
