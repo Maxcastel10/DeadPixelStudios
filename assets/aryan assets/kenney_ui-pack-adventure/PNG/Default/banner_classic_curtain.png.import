@@ -2,16 +2,12 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgh54dehd4al8"
-path="res://.godot/imported/banner_classic_curtain.png-bdb0e5c515893e14424dc2753411a34b.ctex"
-metadata={
-"vram_texture": false
-}
+uid="uid://bfmtaa1a3txjh"
+valid=false
 
 [deps]
 
 source_file="res://assets/aryan assets/kenney_ui-pack-adventure/PNG/Default/banner_classic_curtain.png"
-dest_files=["res://.godot/imported/banner_classic_curtain.png-bdb0e5c515893e14424dc2753411a34b.ctex"]
 
 [params]
 

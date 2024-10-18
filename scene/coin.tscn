@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://woauhmcs7lxr"]
+
+[ext_resource type="Texture2D" uid="uid://bwlk5u6pekgek" path="res://assets/aryan assets/gold-indian-rupee-coin-18552.png" id="1_vvhhb"]
+
+[node name="coin" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(3, 3)
+scale = Vector2(0.170312, 0.170312)
+texture = ExtResource("1_vvhhb")
