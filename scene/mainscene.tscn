@@ -1,8 +1,11 @@
 [gd_scene format=3 uid="uid://ln1yflc78qge"]
 
 [node name="mainscene" type="Node2D"]
+<<<<<<< Updated upstream
 
 [node name="dvd ko sd bana dunga" type="Node" parent="."]
 [node name="aaron" type="Node2D" parent="."]
 
 [node name="JW" type="Node2D" parent="."]
+=======
+>>>>>>> Stashed changes
