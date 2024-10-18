@@ -1,9 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://c3hbplvif3qpx"]
+[gd_scene load_steps=9 format=3 uid="uid://c3hbplvif3qpx"]
 
 [ext_resource type="PackedScene" uid="uid://b7rg3huno8mvl" path="res://scene/bg.tscn" id="3_3ryl8"]
 [ext_resource type="Texture2D" uid="uid://tp7ck7u4pbh1" path="res://assets/MinifolksVillagers/Without Outline/MiniNobleMan.png" id="3_a8kt1"]
 [ext_resource type="PackedScene" uid="uid://bs3h32v03573l" path="res://scene/table.tscn" id="3_l8s1r"]
-[ext_resource type="PackedScene" uid="uid://2miexaegf0nb" path="res://scene/emotes.tscn" id="3_ygdc4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ikrag"]
 atlas = ExtResource("3_a8kt1")
@@ -58,14 +57,6 @@ sprite_frames = SubResource("SpriteFrames_6uag3")
 autoplay = "default"
 frame_progress = 0.0171375
 
-[node name="emotes" parent="CharacterBody2D" instance=ExtResource("3_ygdc4")]
-position = Vector2(0, -5)
-scale = Vector2(0.25, 0.25)
-
-[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-position = Vector2(16.2017, 30.2575)
-scale = Vector2(0.107296, 0.107296)
-
 [node name="table" parent="." instance=ExtResource("3_l8s1r")]
 position = Vector2(334, 294)
 
@@ -76,3 +67,7 @@ offset_left = -250.0
 offset_top = -29.0
 offset_right = 907.0
 offset_bottom = 622.0
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(327, 296)
+scale = Vector2(0.999999, 0.999999)

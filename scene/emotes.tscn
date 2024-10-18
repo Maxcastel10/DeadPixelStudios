@@ -14,13 +14,13 @@ region = Rect2(96, 38, 32, 38)
 atlas = ExtResource("1_e3wgo")
 region = Rect2(160, 0, 32, 38)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_iy4w1"]
-atlas = ExtResource("1_e3wgo")
-region = Rect2(192, 0, 32, 38)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_ua5ke"]
 atlas = ExtResource("1_e3wgo")
 region = Rect2(0, 0, 32, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iy4w1"]
+atlas = ExtResource("1_e3wgo")
+region = Rect2(192, 0, 32, 38)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bvxms"]
 atlas = ExtResource("1_e3wgo")
@@ -59,6 +59,25 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xt7dh")
+}],
+"loop": true,
+"name": &"happy",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xt7dh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ss7ew")
+}],
+"loop": true,
+"name": &"happy 2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ua5ke")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ss7ew")
@@ -67,8 +86,8 @@ animations = [{
 "texture": SubResource("AtlasTexture_iy4w1")
 }],
 "loop": true,
-"name": &"happy heart",
-"speed": 1.0
+"name": &"happy 3",
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -100,11 +119,6 @@ animations = [{
 "loop": true,
 "name": &"loading",
 "speed": 3.0
-}, {
-"frames": [],
-"loop": true,
-"name": &"new_animation_3",
-"speed": 5.0
 }]
 
 [node name="emotes" type="Node2D"]
@@ -113,4 +127,3 @@ animations = [{
 sprite_frames = SubResource("SpriteFrames_48ej8")
 animation = &"loading"
 autoplay = "loading"
-frame_progress = 0.672136
