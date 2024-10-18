@@ -14,4 +14,3 @@ timer
 dustbin
 healthbar
 score
-
