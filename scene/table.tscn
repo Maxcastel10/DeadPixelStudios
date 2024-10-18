@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bs3h32v03573l"]
+
+[ext_resource type="Texture2D" uid="uid://4wkofamb8j77" path="res://assets/aryan assets/backboard/Screenshot 2024-10-18 202442.png" id="1_amhw5"]
+
+[node name="table" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-6.22948, 68.5)
+scale = Vector2(0.666016, 0.666016)
+texture = ExtResource("1_amhw5")
