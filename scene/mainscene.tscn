@@ -52,6 +52,8 @@ position = Vector2(176, 14)
 scale = Vector2(9.32, 9.32)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+position = Vector2(169, 108)
+scale = Vector2(5.71875, 5.46875)
 sprite_frames = SubResource("SpriteFrames_6uag3")
 autoplay = "default"
 frame_progress = 0.0171375
@@ -66,3 +68,11 @@ scale = Vector2(0.107296, 0.107296)
 
 [node name="table" parent="." instance=ExtResource("3_l8s1r")]
 position = Vector2(334, 294)
+
+[node name="PauseGame" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -250.0
+offset_top = -29.0
+offset_right = 907.0
+offset_bottom = 622.0

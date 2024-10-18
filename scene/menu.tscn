@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://c3pfq1cb2qxhb"]
+[gd_scene load_steps=4 format=3 uid="uid://c3pfq1cb2qxhb"]
+
+[ext_resource type="Texture2D" uid="uid://dll2i4dkxibiv" path="res://assets/bananas-1354785_1920.webp" id="1_wm2pf"]
 
 [sub_resource type="GDScript" id="GDScript_ljslk"]
 script/source = "extends Control
@@ -20,7 +22,23 @@ func _on_start_button_pressed() -> void:
 
 func _on_quit_button_pressed() -> void:
 	get_tree().quit()
+
+
+func _on_options_button_pressed() -> void:
+	get_tree().change_scene_to_file(\"res://scene/option_menu.tscn\")
 "
+
+[sub_resource type="FontFile" id="FontFile_yrtrh"]
+cache/0/67/0/ascent = 0.0
+cache/0/67/0/descent = 0.0
+cache/0/67/0/underline_position = 0.0
+cache/0/67/0/underline_thickness = 0.0
+cache/0/67/0/scale = 1.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -35,28 +53,54 @@ grow_horizontal = 2
 grow_vertical = 2
 script = SubResource("GDScript_ljslk")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-layout_mode = 1
-anchors_preset = 4
-anchor_top = 0.5
-anchor_bottom = 0.5
-offset_top = -58.0
-offset_right = 215.0
-offset_bottom = 94.0
-grow_vertical = 2
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -344.0
+offset_top = -332.0
+offset_right = 1576.0
+offset_bottom = 948.0
+texture = ExtResource("1_wm2pf")
 
-[node name="Start_button" type="Button" parent="VBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 332.0
+offset_top = 83.0
+offset_right = 860.0
+offset_bottom = 373.0
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+
+[node name="VSeparator" type="VSeparator" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 60
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/outline_size = 12
+theme_override_fonts/font = SubResource("FontFile_yrtrh")
+theme_override_font_sizes/font_size = 67
+text = "Mandi Madness"
+
+[node name="Start_button" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Start
 "
 
-[node name="Options_button" type="Button" parent="VBoxContainer"]
+[node name="Options_button" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Options"
 
-[node name="Quit_button" type="Button" parent="VBoxContainer"]
+[node name="Quit_button" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "Quit"
 
-[connection signal="pressed" from="VBoxContainer/Start_button" to="." method="_on_start_button_pressed"]
-[connection signal="pressed" from="VBoxContainer/Quit_button" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Start_button" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Options_button" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Quit_button" to="." method="_on_quit_button_pressed"]
