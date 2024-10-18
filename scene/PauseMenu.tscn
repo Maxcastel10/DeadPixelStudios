@@ -1,7 +1,21 @@
-[gd_scene load_steps=3 format=3 uid="uid://djvsm48xoel3s"]
+[gd_scene load_steps=4 format=3 uid="uid://djvsm48xoel3s"]
 
 [ext_resource type="Script" path="res://scripts/pause_menu.gd" id="1_s7y21"]
 [ext_resource type="Script" path="res://scripts/resume.gd" id="2_14d8e"]
+
+[sub_resource type="GDScript" id="GDScript_cm47k"]
+script/source = "extends VBoxContainer
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
 
 [node name="PauseMenu" type="Control"]
 process_mode = 3
@@ -64,6 +78,7 @@ offset_right = 65.0
 offset_bottom = 103.0
 grow_horizontal = 2
 grow_vertical = 2
+script = SubResource("GDScript_cm47k")
 
 [node name="Resume" type="Button" parent="pauseOverlay/pauseMenu"]
 layout_mode = 2
@@ -73,3 +88,5 @@ script = ExtResource("2_14d8e")
 [node name="Main Menu" type="Button" parent="pauseOverlay/pauseMenu"]
 layout_mode = 2
 text = "Main Menu"
+
+[connection signal="pressed" from="pauseOverlay/pauseMenu/Main Menu" to="." method="_on_main_menu_pressed"]

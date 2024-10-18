@@ -1,10 +1,10 @@
-[gd_scene load_steps=11 format=3 uid="uid://dqjj0qw4u46j3"]
+[gd_scene load_steps=11 format=3 uid="uid://bnfmcun2lhqlx"]
 
-[ext_resource type="PackedScene" uid="uid://bbnxnn2pwtow5" path="res://scene/bg.tscn" id="3_3ryl8"]
+[ext_resource type="PackedScene" uid="uid://b7rg3huno8mvl" path="res://scene/bg.tscn" id="3_3ryl8"]
 [ext_resource type="Texture2D" uid="uid://tp7ck7u4pbh1" path="res://assets/MinifolksVillagers/Without Outline/MiniNobleMan.png" id="3_a8kt1"]
 [ext_resource type="PackedScene" path="res://scene/table.tscn" id="3_l8s1r"]
 [ext_resource type="PackedScene" uid="uid://djvsm48xoel3s" path="res://scene/PauseMenu.tscn" id="4_gahh1"]
-[ext_resource type="PackedScene" uid="uid://duyngpqm4tbd2" path="res://scene/Meter.tscn" id="6_3yajf"]
+[ext_resource type="PackedScene" path="res://scene/Meter.tscn" id="6_3yajf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ikrag"]
 atlas = ExtResource("3_a8kt1")

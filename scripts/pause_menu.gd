@@ -9,7 +9,10 @@ func _input(event):
 		var new_pause_state = not get_tree().paused 
 		get_tree().paused = new_pause_state
 		visible = new_pause_state
+		#get_tree().change_scene_to_file("res://scene/menu.tscn")
 	
-	
-	
-	
+
+func _on_main_menu_pressed() -> void:
+	get_tree().paused=false
+	get_tree().change_scene_to_file("res://scene/menu.tscn")
+	print("Changed Scene")
