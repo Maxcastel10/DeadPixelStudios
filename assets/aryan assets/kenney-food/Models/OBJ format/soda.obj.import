@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cng0huvbh4te7"
+path="res://.godot/imported/soda.obj-d66f4f8b2fb7f444916b2e8bf597a595.mesh"
+
+[deps]
+
+files=["res://.godot/imported/soda.obj-d66f4f8b2fb7f444916b2e8bf597a595.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/soda.obj"
+dest_files=["res://.godot/imported/soda.obj-d66f4f8b2fb7f444916b2e8bf597a595.mesh", "res://.godot/imported/soda.obj-d66f4f8b2fb7f444916b2e8bf597a595.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

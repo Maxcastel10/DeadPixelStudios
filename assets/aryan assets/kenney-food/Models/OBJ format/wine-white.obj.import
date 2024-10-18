@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dvhhh47hif561"
+path="res://.godot/imported/wine-white.obj-a68c204bac9c97b78b4faefef7281e32.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wine-white.obj-a68c204bac9c97b78b4faefef7281e32.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/wine-white.obj"
+dest_files=["res://.godot/imported/wine-white.obj-a68c204bac9c97b78b4faefef7281e32.mesh", "res://.godot/imported/wine-white.obj-a68c204bac9c97b78b4faefef7281e32.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

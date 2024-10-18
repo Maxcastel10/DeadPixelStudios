@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ta2n68635y5s"
+path="res://.godot/imported/burger-double.obj-ac77473a9644a06ee550da4a1b24e7f0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/burger-double.obj-ac77473a9644a06ee550da4a1b24e7f0.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/burger-double.obj"
+dest_files=["res://.godot/imported/burger-double.obj-ac77473a9644a06ee550da4a1b24e7f0.mesh", "res://.godot/imported/burger-double.obj-ac77473a9644a06ee550da4a1b24e7f0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

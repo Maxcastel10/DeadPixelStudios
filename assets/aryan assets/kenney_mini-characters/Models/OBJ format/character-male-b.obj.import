@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bf0e61evgcntd"
+path="res://.godot/imported/character-male-b.obj-cac2e4b370fab5daa25bf075f3c243af.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character-male-b.obj-cac2e4b370fab5daa25bf075f3c243af.mesh"]
+
+source_file="res://assets/aryan assets/kenney_mini-characters/Models/OBJ format/character-male-b.obj"
+dest_files=["res://.godot/imported/character-male-b.obj-cac2e4b370fab5daa25bf075f3c243af.mesh", "res://.godot/imported/character-male-b.obj-cac2e4b370fab5daa25bf075f3c243af.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

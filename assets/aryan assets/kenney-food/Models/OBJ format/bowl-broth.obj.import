@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://44dg7x3euuvg"
+path="res://.godot/imported/bowl-broth.obj-c20c21eff5fe407cdb818300792d36de.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bowl-broth.obj-c20c21eff5fe407cdb818300792d36de.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/bowl-broth.obj"
+dest_files=["res://.godot/imported/bowl-broth.obj-c20c21eff5fe407cdb818300792d36de.mesh", "res://.godot/imported/bowl-broth.obj-c20c21eff5fe407cdb818300792d36de.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

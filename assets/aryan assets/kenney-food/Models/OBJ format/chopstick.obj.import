@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dpvas3l0ibp2"
+path="res://.godot/imported/chopstick.obj-40666bc95ddbc50debf57efa48ceedb7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/chopstick.obj-40666bc95ddbc50debf57efa48ceedb7.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/chopstick.obj"
+dest_files=["res://.godot/imported/chopstick.obj-40666bc95ddbc50debf57efa48ceedb7.mesh", "res://.godot/imported/chopstick.obj-40666bc95ddbc50debf57efa48ceedb7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

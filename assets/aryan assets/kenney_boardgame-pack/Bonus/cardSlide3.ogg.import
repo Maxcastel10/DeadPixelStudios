@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d3k7r4nu2rnjs"
+path="res://.godot/imported/cardSlide3.ogg-0925384c81c2becf62a2f818273adbdd.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/aryan assets/kenney_boardgame-pack/Bonus/cardSlide3.ogg"
+dest_files=["res://.godot/imported/cardSlide3.ogg-0925384c81c2becf62a2f818273adbdd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

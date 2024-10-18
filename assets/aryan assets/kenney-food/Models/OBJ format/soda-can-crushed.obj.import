@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cl0tur0u5iu3m"
+path="res://.godot/imported/soda-can-crushed.obj-f7379f984890d58c11889b673ad08c70.mesh"
+
+[deps]
+
+files=["res://.godot/imported/soda-can-crushed.obj-f7379f984890d58c11889b673ad08c70.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/soda-can-crushed.obj"
+dest_files=["res://.godot/imported/soda-can-crushed.obj-f7379f984890d58c11889b673ad08c70.mesh", "res://.godot/imported/soda-can-crushed.obj-f7379f984890d58c11889b673ad08c70.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

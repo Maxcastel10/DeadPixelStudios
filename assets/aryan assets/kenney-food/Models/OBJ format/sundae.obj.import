@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b8668e8jqfjal"
+path="res://.godot/imported/sundae.obj-e8ee3f1de022ef165e57a6590ada1ab7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sundae.obj-e8ee3f1de022ef165e57a6590ada1ab7.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/sundae.obj"
+dest_files=["res://.godot/imported/sundae.obj-e8ee3f1de022ef165e57a6590ada1ab7.mesh", "res://.godot/imported/sundae.obj-e8ee3f1de022ef165e57a6590ada1ab7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

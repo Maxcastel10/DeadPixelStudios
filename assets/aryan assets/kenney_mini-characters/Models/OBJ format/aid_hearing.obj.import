@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://6mkt4i5ud1f3"
+path="res://.godot/imported/aid_hearing.obj-2146ac8fcb8798efc04f6351149d50df.mesh"
+
+[deps]
+
+files=["res://.godot/imported/aid_hearing.obj-2146ac8fcb8798efc04f6351149d50df.mesh"]
+
+source_file="res://assets/aryan assets/kenney_mini-characters/Models/OBJ format/aid_hearing.obj"
+dest_files=["res://.godot/imported/aid_hearing.obj-2146ac8fcb8798efc04f6351149d50df.mesh", "res://.godot/imported/aid_hearing.obj-2146ac8fcb8798efc04f6351149d50df.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

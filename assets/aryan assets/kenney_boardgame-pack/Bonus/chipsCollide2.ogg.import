@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://budxwaeoivmuq"
+path="res://.godot/imported/chipsCollide2.ogg-6c249b64a57defa2c8be9cfcf9ce421b.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/aryan assets/kenney_boardgame-pack/Bonus/chipsCollide2.ogg"
+dest_files=["res://.godot/imported/chipsCollide2.ogg-6c249b64a57defa2c8be9cfcf9ce421b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

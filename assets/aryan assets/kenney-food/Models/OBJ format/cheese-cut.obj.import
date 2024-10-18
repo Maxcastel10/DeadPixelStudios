@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d1wufnjowp27t"
+path="res://.godot/imported/cheese-cut.obj-928fc32a9247d9bcb0231471218ccb47.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cheese-cut.obj-928fc32a9247d9bcb0231471218ccb47.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/cheese-cut.obj"
+dest_files=["res://.godot/imported/cheese-cut.obj-928fc32a9247d9bcb0231471218ccb47.mesh", "res://.godot/imported/cheese-cut.obj-928fc32a9247d9bcb0231471218ccb47.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

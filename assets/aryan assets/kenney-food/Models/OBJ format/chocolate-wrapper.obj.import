@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://sfg5f8hyvl66"
+path="res://.godot/imported/chocolate-wrapper.obj-34159db0cdb7e8009dc74e18d2daa7ff.mesh"
+
+[deps]
+
+files=["res://.godot/imported/chocolate-wrapper.obj-34159db0cdb7e8009dc74e18d2daa7ff.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/chocolate-wrapper.obj"
+dest_files=["res://.godot/imported/chocolate-wrapper.obj-34159db0cdb7e8009dc74e18d2daa7ff.mesh", "res://.godot/imported/chocolate-wrapper.obj-34159db0cdb7e8009dc74e18d2daa7ff.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

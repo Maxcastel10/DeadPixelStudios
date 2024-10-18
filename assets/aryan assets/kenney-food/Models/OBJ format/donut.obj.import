@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://budrj6pqokxfs"
+path="res://.godot/imported/donut.obj-bb9f2b08e06f75c12323fde6c4cc179e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/donut.obj-bb9f2b08e06f75c12323fde6c4cc179e.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/donut.obj"
+dest_files=["res://.godot/imported/donut.obj-bb9f2b08e06f75c12323fde6c4cc179e.mesh", "res://.godot/imported/donut.obj-bb9f2b08e06f75c12323fde6c4cc179e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

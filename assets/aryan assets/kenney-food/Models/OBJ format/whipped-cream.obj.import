@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cxope06oaiwkr"
+path="res://.godot/imported/whipped-cream.obj-ea05a02192004dfb4cae6dd6a39b00af.mesh"
+
+[deps]
+
+files=["res://.godot/imported/whipped-cream.obj-ea05a02192004dfb4cae6dd6a39b00af.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/whipped-cream.obj"
+dest_files=["res://.godot/imported/whipped-cream.obj-ea05a02192004dfb4cae6dd6a39b00af.mesh", "res://.godot/imported/whipped-cream.obj-ea05a02192004dfb4cae6dd6a39b00af.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

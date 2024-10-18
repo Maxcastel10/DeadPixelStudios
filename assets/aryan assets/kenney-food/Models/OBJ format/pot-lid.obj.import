@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cr00sgl0demwk"
+path="res://.godot/imported/pot-lid.obj-8c6d83fad5da26dc98d40dc44d5e16e8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pot-lid.obj-8c6d83fad5da26dc98d40dc44d5e16e8.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/pot-lid.obj"
+dest_files=["res://.godot/imported/pot-lid.obj-8c6d83fad5da26dc98d40dc44d5e16e8.mesh", "res://.godot/imported/pot-lid.obj-8c6d83fad5da26dc98d40dc44d5e16e8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

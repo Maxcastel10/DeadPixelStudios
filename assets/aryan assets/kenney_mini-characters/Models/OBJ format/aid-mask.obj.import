@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dvronyk3vbc6s"
+path="res://.godot/imported/aid-mask.obj-1e184a1a775af3f5f11bf8bc3353c706.mesh"
+
+[deps]
+
+files=["res://.godot/imported/aid-mask.obj-1e184a1a775af3f5f11bf8bc3353c706.mesh"]
+
+source_file="res://assets/aryan assets/kenney_mini-characters/Models/OBJ format/aid-mask.obj"
+dest_files=["res://.godot/imported/aid-mask.obj-1e184a1a775af3f5f11bf8bc3353c706.mesh", "res://.godot/imported/aid-mask.obj-1e184a1a775af3f5f11bf8bc3353c706.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bpek3738s6wcw"
+path="res://.godot/imported/plate-broken.obj-a582dd3569848173a79fbbc85862a09d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/plate-broken.obj-a582dd3569848173a79fbbc85862a09d.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/plate-broken.obj"
+dest_files=["res://.godot/imported/plate-broken.obj-a582dd3569848173a79fbbc85862a09d.mesh", "res://.godot/imported/plate-broken.obj-a582dd3569848173a79fbbc85862a09d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

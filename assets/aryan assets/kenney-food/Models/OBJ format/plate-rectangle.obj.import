@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://mdupcufnw41e"
+path="res://.godot/imported/plate-rectangle.obj-e51ffd29057bd1eac19ecf14f7df63cc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/plate-rectangle.obj-e51ffd29057bd1eac19ecf14f7df63cc.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/plate-rectangle.obj"
+dest_files=["res://.godot/imported/plate-rectangle.obj-e51ffd29057bd1eac19ecf14f7df63cc.mesh", "res://.godot/imported/plate-rectangle.obj-e51ffd29057bd1eac19ecf14f7df63cc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

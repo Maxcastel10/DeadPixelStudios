@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bol8coht2rthr"
+path="res://.godot/imported/frappe.obj-50c04fb95c03726957080f8772c4f62e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/frappe.obj-50c04fb95c03726957080f8772c4f62e.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/frappe.obj"
+dest_files=["res://.godot/imported/frappe.obj-50c04fb95c03726957080f8772c4f62e.mesh", "res://.godot/imported/frappe.obj-50c04fb95c03726957080f8772c4f62e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

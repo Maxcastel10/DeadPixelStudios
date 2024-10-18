@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ce0sgvufkkjkw"
+path="res://.godot/imported/strawberry.obj-bb6d33b5e9d29dc549b1eb20d459b18d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/strawberry.obj-bb6d33b5e9d29dc549b1eb20d459b18d.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/strawberry.obj"
+dest_files=["res://.godot/imported/strawberry.obj-bb6d33b5e9d29dc549b1eb20d459b18d.mesh", "res://.godot/imported/strawberry.obj-bb6d33b5e9d29dc549b1eb20d459b18d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

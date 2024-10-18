@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://db2f4n6xavd1q"
+path="res://.godot/imported/dieThrow2.ogg-3f9f0fc5cc4f972d231ecc15231cebd1.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/aryan assets/kenney_boardgame-pack/Bonus/dieThrow2.ogg"
+dest_files=["res://.godot/imported/dieThrow2.ogg-3f9f0fc5cc4f972d231ecc15231cebd1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

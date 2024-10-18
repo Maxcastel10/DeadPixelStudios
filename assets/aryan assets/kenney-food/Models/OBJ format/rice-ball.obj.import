@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c3y7q6m34o7me"
+path="res://.godot/imported/rice-ball.obj-eeb22524fcd79576f12ca96f3af1f204.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rice-ball.obj-eeb22524fcd79576f12ca96f3af1f204.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/rice-ball.obj"
+dest_files=["res://.godot/imported/rice-ball.obj-eeb22524fcd79576f12ca96f3af1f204.mesh", "res://.godot/imported/rice-ball.obj-eeb22524fcd79576f12ca96f3af1f204.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

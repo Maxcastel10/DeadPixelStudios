@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bjny3qyp3b1xp"
+path="res://.godot/imported/mussel-open.obj-9f736701be741e73dc17da5d233bbe5b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/mussel-open.obj-9f736701be741e73dc17da5d233bbe5b.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/mussel-open.obj"
+dest_files=["res://.godot/imported/mussel-open.obj-9f736701be741e73dc17da5d233bbe5b.mesh", "res://.godot/imported/mussel-open.obj-9f736701be741e73dc17da5d233bbe5b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://vq7kx25i7kjj"
+path="res://.godot/imported/can.obj-b0621215d1649f71875f079c9c7b06b5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/can.obj-b0621215d1649f71875f079c9c7b06b5.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/can.obj"
+dest_files=["res://.godot/imported/can.obj-b0621215d1649f71875f079c9c7b06b5.mesh", "res://.godot/imported/can.obj-b0621215d1649f71875f079c9c7b06b5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

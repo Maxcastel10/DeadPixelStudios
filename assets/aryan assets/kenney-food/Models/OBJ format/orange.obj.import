@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cp3mia073quiy"
+path="res://.godot/imported/orange.obj-f5e2c81e3fbbf0df97dcd1befd555660.mesh"
+
+[deps]
+
+files=["res://.godot/imported/orange.obj-f5e2c81e3fbbf0df97dcd1befd555660.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/orange.obj"
+dest_files=["res://.godot/imported/orange.obj-f5e2c81e3fbbf0df97dcd1befd555660.mesh", "res://.godot/imported/orange.obj-f5e2c81e3fbbf0df97dcd1befd555660.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

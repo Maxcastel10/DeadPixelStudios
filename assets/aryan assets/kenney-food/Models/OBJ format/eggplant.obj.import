@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://df5b670p3hbgy"
+path="res://.godot/imported/eggplant.obj-3a46b40e8e548a6b0de6490ac4b9052c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/eggplant.obj-3a46b40e8e548a6b0de6490ac4b9052c.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/eggplant.obj"
+dest_files=["res://.godot/imported/eggplant.obj-3a46b40e8e548a6b0de6490ac4b9052c.mesh", "res://.godot/imported/eggplant.obj-3a46b40e8e548a6b0de6490ac4b9052c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

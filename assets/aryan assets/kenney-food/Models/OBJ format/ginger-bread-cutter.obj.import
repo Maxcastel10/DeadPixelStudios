@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ccxmk6l1btmdg"
+path="res://.godot/imported/ginger-bread-cutter.obj-68644797a2dc0a3426978af1caf39b3c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ginger-bread-cutter.obj-68644797a2dc0a3426978af1caf39b3c.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/ginger-bread-cutter.obj"
+dest_files=["res://.godot/imported/ginger-bread-cutter.obj-68644797a2dc0a3426978af1caf39b3c.mesh", "res://.godot/imported/ginger-bread-cutter.obj-68644797a2dc0a3426978af1caf39b3c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

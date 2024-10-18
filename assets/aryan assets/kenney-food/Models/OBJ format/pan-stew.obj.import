@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b2uk740jec1oi"
+path="res://.godot/imported/pan-stew.obj-0910e7da1eee670ea7b65a4a31db49dc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pan-stew.obj-0910e7da1eee670ea7b65a4a31db49dc.mesh"]
+
+source_file="res://assets/aryan assets/kenney-food/Models/OBJ format/pan-stew.obj"
+dest_files=["res://.godot/imported/pan-stew.obj-0910e7da1eee670ea7b65a4a31db49dc.mesh", "res://.godot/imported/pan-stew.obj-0910e7da1eee670ea7b65a4a31db49dc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
