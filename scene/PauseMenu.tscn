@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://djvsm48xoel3s"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+layer = 100
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 911.0
+offset_bottom = 641.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.145098)
