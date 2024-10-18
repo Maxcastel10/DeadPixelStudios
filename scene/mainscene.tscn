@@ -2,6 +2,7 @@
 
 [node name="mainscene" type="Node2D"]
 
+[node name="dvd ko sd bana dunga" type="Node" parent="."]
 [node name="aaron" type="Node2D" parent="."]
 
 [node name="JW" type="Node2D" parent="."]
