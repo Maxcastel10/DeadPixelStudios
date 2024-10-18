@@ -1,6 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://c3hbplvif3qpx"]
+[gd_scene load_steps=3 format=3 uid="uid://c3hbplvif3qpx"]
 
 [ext_resource type="Script" path="res://scripts/aaron.gd" id="1_udrq3"]
+[ext_resource type="Script" path="res://scripts/character_body_2d.gd" id="2_nhv7o"]
 
 [node name="mainscene" type="Node2D"]
 script = ExtResource("1_udrq3")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("2_nhv7o")
