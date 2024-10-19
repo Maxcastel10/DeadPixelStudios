@@ -79,7 +79,7 @@ rotation = 0.00159678
 script = ExtResource("6_q2flm")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="customer1"]
-position = Vector2(701.253, 157.88)
+position = Vector2(714.255, 158.86)
 scale = Vector2(1, 1.16)
 shape = SubResource("SegmentShape2D_v5cdw")
 

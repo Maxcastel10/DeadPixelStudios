@@ -1,6 +1,7 @@
-[gd_scene load_steps=14 format=3 uid="uid://2miexaegf0nb"]
+[gd_scene load_steps=15 format=3 uid="uid://2miexaegf0nb"]
 
 [ext_resource type="Texture2D" uid="uid://csb85qmu3jcs5" path="res://assets/aryan assets/emotes/Tilesheets/vector_style3.png" id="1_e3wgo"]
+[ext_resource type="Script" path="res://scripts/emotes.gd" id="1_iqlka"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_n6i4f"]
 atlas = ExtResource("1_e3wgo")
@@ -122,6 +123,8 @@ animations = [{
 }]
 
 [node name="emotes" type="Node2D"]
+z_index = 1
+script = ExtResource("1_iqlka")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_48ej8")

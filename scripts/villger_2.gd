@@ -2,7 +2,6 @@ extends AnimatableBody2D
 @onready var emotes = $emotes
 var direction = 0
 @onready var ani = $AnimatedSprite2D
-
 var speed=200
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -24,3 +23,5 @@ func movedown():
 	pass
 func stop():
 	direction=-1
+	emotes.visible=true
+	emotes.play_think()
