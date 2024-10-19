@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://c85dq1kwk3sis"]
+
+[ext_resource type="Texture2D" uid="uid://h31wwkpfdp8b" path="res://assets/Vegetable Sprites JW/Fruit+.png" id="1_13p1s"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_u433h"]
+radius = 3.83068
+height = 13.4725
+
+[node name="bannana" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-3, -1)
+rotation = -0.867646
+scale = Vector2(1.0781, 1.02407)
+texture = ExtResource("1_13p1s")
+region_enabled = true
+region_rect = Rect2(112, 0, 16, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(0.522101, 1.48451)
+shape = SubResource("CapsuleShape2D_u433h")

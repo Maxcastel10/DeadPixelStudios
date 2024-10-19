@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://s3w62gudo7cc"]
+
+[ext_resource type="Texture2D" uid="uid://6y51ws62vlk4" path="res://assets/Vegetable Sprites JW/16x16foodasset.png" id="1_elnl4"]
+
+[node name="Area2D" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_elnl4")
+region_enabled = true
+region_rect = Rect2(0, 64, 16, 16)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-5, -2, -5, 2, -2, 6, 4, 6, 7, 2, 6, -1, 3, -4, -3, -4)

@@ -26,7 +26,7 @@ b = Vector2(1, 88)
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_6gsni"]
 a = Vector2(0, -105)
-b = Vector2(-1, 85)
+b = Vector2(2.20352, 86)
 
 [node name="mainscene" type="Node2D"]
 position = Vector2(0, 79)
@@ -71,7 +71,7 @@ rotation = 0.00159678
 script = ExtResource("6_w37qe")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="stopline"]
-position = Vector2(40.3241, 202.936)
+position = Vector2(40.3624, 226.936)
 shape = SubResource("SegmentShape2D_jdda4")
 
 [node name="customer1" type="Area2D" parent="."]
