@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://2miexaegf0nb"]
+[gd_scene load_steps=15 format=3 uid="uid://cs47y5adacbmc"]
 
 [ext_resource type="Texture2D" uid="uid://csb85qmu3jcs5" path="res://assets/aryan assets/emotes/Tilesheets/vector_style3.png" id="1_e3wgo"]
 [ext_resource type="Script" path="res://scripts/emotes.gd" id="1_iqlka"]

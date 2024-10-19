@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5qi26peklxq3"]
+
+[ext_resource type="Texture2D" uid="uid://h31wwkpfdp8b" path="res://assets/Vegetable Sprites JW/Fruit+.png" id="1_4p8j6"]
+
+[node name="BlueBerries" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_4p8j6")
+region_enabled = true
+region_rect = Rect2(256, 48, 16, 16)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-7, -8, 2, -8, 8, -4, 7, 2, 7, 6, 3, 8, 0, 5, -4, 5, -8, -2)

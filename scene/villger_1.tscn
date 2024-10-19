@@ -1,8 +1,8 @@
-[gd_scene load_steps=16 format=3 uid="uid://ui73hbh0wwna"]
+[gd_scene load_steps=16 format=3 uid="uid://bv6khoocper1k"]
 
 [ext_resource type="Script" path="res://scripts/villger_2.gd" id="1_gwim5"]
 [ext_resource type="Texture2D" uid="uid://dgstlexhkqikl" path="res://assets/MinifolksVillagers/Outline/MiniNobleMan.png" id="3_6yhkm"]
-[ext_resource type="PackedScene" uid="uid://2miexaegf0nb" path="res://scene/emotes.tscn" id="3_qx078"]
+[ext_resource type="PackedScene" uid="uid://cs47y5adacbmc" path="res://scene/emotes.tscn" id="3_qx078"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ug76r"]
 atlas = ExtResource("3_6yhkm")

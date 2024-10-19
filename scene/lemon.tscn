@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bgs4drr5ywynj"]
+
+[ext_resource type="Texture2D" uid="uid://h31wwkpfdp8b" path="res://assets/Vegetable Sprites JW/Fruit+.png" id="1_2ihjr"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_djwml"]
+radius = 8.0
+
+[node name="Lemon" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_2ihjr")
+region_enabled = true
+region_rect = Rect2(288, 17, 16, 14)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_djwml")

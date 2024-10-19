@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b54yg35scl6rc"]
+
+[ext_resource type="Texture2D" uid="uid://h31wwkpfdp8b" path="res://assets/Vegetable Sprites JW/Fruit+.png" id="1_ehjvw"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mjeqs"]
+radius = 6.0
+height = 16.0
+
+[node name="DragonFruit" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ehjvw")
+region_enabled = true
+region_rect = Rect2(338, 0, 12, 15)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_mjeqs")

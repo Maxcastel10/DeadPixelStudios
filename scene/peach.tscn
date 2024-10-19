@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://c5qxb8i0cgo7k"]
+
+[ext_resource type="Texture2D" uid="uid://h31wwkpfdp8b" path="res://assets/Vegetable Sprites JW/Fruit+.png" id="1_q2bd7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6htuq"]
+radius = 8.0
+
+[node name="Peach" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_q2bd7")
+region_enabled = true
+region_rect = Rect2(192, 48, 16, 15)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_6htuq")

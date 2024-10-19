@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://d205nhnrfuwjv"]
+
+[ext_resource type="Texture2D" uid="uid://h31wwkpfdp8b" path="res://assets/Vegetable Sprites JW/Fruit+.png" id="1_j5g6q"]
+
+[node name="Chilli" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_j5g6q")
+region_enabled = true
+region_rect = Rect2(480, 32, 16, 15)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(8, -8, 6, -4, 6, 0, 2, 4, -3, 8, -7, 8, -8, 5, -2, -2, 1, -5, 4, -6)

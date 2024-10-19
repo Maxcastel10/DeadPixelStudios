@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpxqvqyja7i3f"]
+
+[ext_resource type="Texture2D" uid="uid://h31wwkpfdp8b" path="res://assets/Vegetable Sprites JW/Fruit+.png" id="1_3ni1x"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mb5ok"]
+radius = 8.0
+
+[node name="Pomogrante" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_3ni1x")
+region_enabled = true
+region_rect = Rect2(208, 16, 15, 17)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_mb5ok")
