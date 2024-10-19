@@ -16,3 +16,7 @@ func _on_main_menu_pressed() -> void:
 	get_tree().paused=false
 	get_tree().change_scene_to_file("res://scene/menu.tscn")
 	print("Changed Scene")
+
+
+func _on_area_2d_4_body_exited(body):
+	pass # Replace with function body.

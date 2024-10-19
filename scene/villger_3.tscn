@@ -1,0 +1,109 @@
+[gd_scene load_steps=16 format=3 uid="uid://cd1lots2f3umh"]
+
+[ext_resource type="Script" path="res://scripts/villger_2.gd" id="1_nuosj"]
+[ext_resource type="Texture2D" uid="uid://dj5qwusgb38wm" path="res://assets/MinifolksVillagers/Outline/MiniPeasant.png" id="2_cralg"]
+[ext_resource type="PackedScene" uid="uid://2miexaegf0nb" path="res://scene/emotes.tscn" id="3_yeanp"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ueraq"]
+atlas = ExtResource("2_cralg")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pgd5h"]
+atlas = ExtResource("2_cralg")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k7s65"]
+atlas = ExtResource("2_cralg")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g8p7u"]
+atlas = ExtResource("2_cralg")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t1smh"]
+atlas = ExtResource("2_cralg")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7y0qv"]
+atlas = ExtResource("2_cralg")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yq1c5"]
+atlas = ExtResource("2_cralg")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rgxq2"]
+atlas = ExtResource("2_cralg")
+region = Rect2(96, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s4qrs"]
+atlas = ExtResource("2_cralg")
+region = Rect2(128, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4327l"]
+atlas = ExtResource("2_cralg")
+region = Rect2(160, 32, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8squl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ueraq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pgd5h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k7s65")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g8p7u")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t1smh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7y0qv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yq1c5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rgxq2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s4qrs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4327l")
+}],
+"loop": true,
+"name": &"move",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_srcf0"]
+radius = 4.0
+
+[node name="Villger2" type="AnimatableBody2D"]
+script = ExtResource("1_nuosj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -11)
+sprite_frames = SubResource("SpriteFrames_8squl")
+animation = &"idle"
+autoplay = "move"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_srcf0")
+
+[node name="emotes" parent="." instance=ExtResource("3_yeanp")]
+visible = false
+position = Vector2(4.76837e-07, -5)
+scale = Vector2(0.297829, 0.297829)

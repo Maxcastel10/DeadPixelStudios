@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://bsi2rjwlmyh3l"]
+[gd_scene load_steps=4 format=3 uid="uid://da14v1x1hdixm"]
 
 [ext_resource type="Texture2D" uid="uid://dfbs2go1exw44" path="res://assets/Homemade-ravioli-with-meat-and-cheese-in-bowl.webp" id="1_lx76t"]
 [ext_resource type="Script" path="res://scene/option_menu.gd" id="1_xm8l6"]

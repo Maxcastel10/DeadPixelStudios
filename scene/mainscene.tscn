@@ -1,83 +1,124 @@
-[gd_scene load_steps=11 format=3 uid="uid://bnfmcun2lhqlx"]
+[gd_scene load_steps=13 format=3 uid="uid://c3hbplvif3qpx"]
 
 [ext_resource type="PackedScene" uid="uid://b7rg3huno8mvl" path="res://scene/bg.tscn" id="3_3ryl8"]
-[ext_resource type="Texture2D" uid="uid://tp7ck7u4pbh1" path="res://assets/MinifolksVillagers/Without Outline/MiniNobleMan.png" id="3_a8kt1"]
-[ext_resource type="PackedScene" path="res://scene/table.tscn" id="3_l8s1r"]
+[ext_resource type="PackedScene" uid="uid://bs3h32v03573l" path="res://scene/table.tscn" id="3_l8s1r"]
 [ext_resource type="PackedScene" uid="uid://djvsm48xoel3s" path="res://scene/PauseMenu.tscn" id="4_gahh1"]
+[ext_resource type="Script" path="res://scripts/spawner.gd" id="5_ljkev"]
 [ext_resource type="PackedScene" path="res://scene/Meter.tscn" id="6_3yajf"]
+[ext_resource type="Script" path="res://scene/area_2d_2.gd" id="6_q2flm"]
+[ext_resource type="Script" path="res://scripts/stopline.gd" id="6_w37qe"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_ikrag"]
-atlas = ExtResource("3_a8kt1")
-region = Rect2(0, 0, 32, 32)
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_jdda4"]
+a = Vector2(969.015, 8.45271)
+b = Vector2(22.0143, 8.96487)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_rpwgu"]
-atlas = ExtResource("3_a8kt1")
-region = Rect2(32, 0, 32, 32)
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_v5cdw"]
+a = Vector2(-3.86206, -70.8393)
+b = Vector2(-2.60339, 79.8244)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_c1qp1"]
-atlas = ExtResource("3_a8kt1")
-region = Rect2(64, 0, 32, 32)
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_25eee"]
+a = Vector2(1, -129.936)
+b = Vector2(2, 121.274)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_pywdf"]
-atlas = ExtResource("3_a8kt1")
-region = Rect2(96, 0, 32, 32)
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_mfwgk"]
+a = Vector2(-1, -103)
+b = Vector2(1, 88)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_6uag3"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ikrag")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_rpwgu")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_c1qp1")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_pywdf")
-}],
-"loop": true,
-"name": &"default",
-"speed": 5.0
-}]
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_6gsni"]
+a = Vector2(0, -105)
+b = Vector2(-1, 85)
 
 [node name="mainscene" type="Node2D"]
 position = Vector2(0, 79)
 
 [node name="bg" parent="." instance=ExtResource("3_3ryl8")]
-position = Vector2(328, 141)
-
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-position = Vector2(176, 14)
-scale = Vector2(9.32, 9.32)
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
-position = Vector2(169, 108)
-scale = Vector2(5.71875, 5.46875)
-sprite_frames = SubResource("SpriteFrames_6uag3")
-autoplay = "default"
-frame_progress = 0.0171375
+position = Vector2(339, 166)
 
 [node name="table" parent="." instance=ExtResource("3_l8s1r")]
-position = Vector2(334, 294)
+position = Vector2(498, 369)
 
 [node name="PauseGame" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
-offset_left = -207.0
-offset_top = -32.0
-offset_right = 950.0
-offset_bottom = 619.0
+offset_left = -11.0
+offset_top = -6.0
+offset_right = 1146.0
+offset_bottom = 645.0
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(327, 296)
+position = Vector2(565, 319)
 scale = Vector2(0.999999, 0.999999)
 
 [node name="PauseMenu" parent="." instance=ExtResource("4_gahh1")]
 
 [node name="Control" parent="." instance=ExtResource("6_3yajf")]
+visible = false
 offset_left = 487.0
 offset_top = 115.0
 offset_right = 487.0
 offset_bottom = 115.0
+
+[node name="spawner" type="Node2D" parent="."]
+position = Vector2(10, 160)
+script = ExtResource("5_ljkev")
+
+[node name="Timer" type="Timer" parent="spawner"]
+wait_time = 6.823
+autostart = true
+
+[node name="stopline" type="Area2D" parent="."]
+rotation = 0.00159678
+script = ExtResource("6_w37qe")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="stopline"]
+position = Vector2(40.3241, 202.936)
+shape = SubResource("SegmentShape2D_jdda4")
+
+[node name="customer1" type="Area2D" parent="."]
+rotation = 0.00159678
+script = ExtResource("6_q2flm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="customer1"]
+position = Vector2(701.253, 157.88)
+scale = Vector2(1, 1.16)
+shape = SubResource("SegmentShape2D_v5cdw")
+
+[node name="customer2" type="Area2D" parent="."]
+script = ExtResource("6_q2flm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="customer2"]
+position = Vector2(581, 171)
+scale = Vector2(1, 0.692649)
+shape = SubResource("SegmentShape2D_25eee")
+
+[node name="customer3" type="Area2D" parent="."]
+script = ExtResource("6_q2flm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="customer3"]
+position = Vector2(467, 170)
+shape = SubResource("SegmentShape2D_mfwgk")
+
+[node name="customer5" type="Area2D" parent="."]
+script = ExtResource("6_q2flm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="customer5"]
+position = Vector2(205, 175)
+scale = Vector2(0.907634, 1)
+shape = SubResource("SegmentShape2D_6gsni")
+
+[node name="customer6" type="Area2D" parent="."]
+script = ExtResource("6_q2flm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="customer6"]
+position = Vector2(333, 171)
+scale = Vector2(0.907634, 1)
+shape = SubResource("SegmentShape2D_6gsni")
+
+[connection signal="timeout" from="spawner/Timer" to="spawner" method="_on_timer_timeout"]
+[connection signal="body_exited" from="stopline" to="stopline" method="_on_body_exited"]
+[connection signal="body_entered" from="customer1" to="customer1" method="_on_body_entered"]
+[connection signal="body_exited" from="customer1" to="customer1" method="_on_body_exited"]
+[connection signal="body_exited" from="customer2" to="customer2" method="_on_body_exited"]
+[connection signal="body_exited" from="customer3" to="customer3" method="_on_body_exited"]
+[connection signal="body_exited" from="customer5" to="customer5" method="_on_body_exited"]
+[connection signal="body_exited" from="customer6" to="customer6" method="_on_body_exited"]
