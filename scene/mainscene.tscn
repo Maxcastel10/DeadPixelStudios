@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://c3hbplvif3qpx"]
+[gd_scene load_steps=15 format=3 uid="uid://c3hbplvif3qpx"]
 
 [ext_resource type="PackedScene" uid="uid://b7rg3huno8mvl" path="res://scene/bg.tscn" id="3_3ryl8"]
 [ext_resource type="PackedScene" uid="uid://djvsm48xoel3s" path="res://scene/PauseMenu.tscn" id="4_gahh1"]
@@ -8,6 +8,7 @@
 [ext_resource type="Script" path="res://scripts/stopline.gd" id="6_w37qe"]
 [ext_resource type="PackedScene" uid="uid://dkye1j6hk7hux" path="res://scene/tableable.tscn" id="7_4wvok"]
 [ext_resource type="PackedScene" uid="uid://d322omtbqhhe0" path="res://scene/seller.tscn" id="8_m23nh"]
+[ext_resource type="PackedScene" uid="uid://c85dq1kwk3sis" path="res://scene/bannana.tscn" id="9_e1f6g"]
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_jdda4"]
 a = Vector2(969.015, 8.45271)
@@ -122,6 +123,11 @@ scale = Vector2(1.80008, 2.17525)
 [node name="seller" parent="." instance=ExtResource("8_m23nh")]
 position = Vector2(884, 339)
 scale = Vector2(4.32, 4.32)
+
+[node name="bannana" parent="." instance=ExtResource("9_e1f6g")]
+position = Vector2(217, 302)
+rotation = 0.808203
+scale = Vector2(-5.47144, -5.47144)
 
 [connection signal="timeout" from="spawner/Timer" to="spawner" method="_on_timer_timeout"]
 [connection signal="body_exited" from="stopline" to="stopline" method="_on_body_exited"]

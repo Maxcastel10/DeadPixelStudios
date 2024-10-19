@@ -25,3 +25,7 @@ func stop():
 	direction=-1
 	emotes.visible=true
 	emotes.play_think()
+
+
+func _on_timer_timeout():
+	pass # Replace with function body.

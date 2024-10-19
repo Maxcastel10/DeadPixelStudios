@@ -106,3 +106,7 @@ shape = SubResource("CircleShape2D_srcf0")
 [node name="emotes" parent="." instance=ExtResource("3_qx078")]
 position = Vector2(0, -16)
 scale = Vector2(0.297829, 0.297829)
+
+[node name="Timer" type="Timer" parent="emotes"]
+
+[connection signal="timeout" from="emotes/Timer" to="." method="_on_timer_timeout"]

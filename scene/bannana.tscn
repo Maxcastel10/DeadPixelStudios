@@ -1,21 +1,24 @@
 [gd_scene load_steps=3 format=3 uid="uid://c85dq1kwk3sis"]
 
+[ext_resource type="Script" path="res://scene/bannana.gd" id="1_7hyb6"]
 [ext_resource type="Texture2D" uid="uid://h31wwkpfdp8b" path="res://assets/Vegetable Sprites JW/Fruit+.png" id="1_13p1s"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_u433h"]
-radius = 3.83068
-height = 13.4725
-
 [node name="bannana" type="Area2D"]
+script = ExtResource("1_7hyb6")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(-3, -1)
+position = Vector2(-2, -2)
 rotation = -0.867646
 scale = Vector2(1.0781, 1.02407)
 texture = ExtResource("1_13p1s")
 region_enabled = true
 region_rect = Rect2(112, 0, 16, 16)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-scale = Vector2(0.522101, 1.48451)
-shape = SubResource("CapsuleShape2D_u433h")
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(-2, -2)
+rotation = -0.867646
+scale = Vector2(1.0781, 1.02407)
+polygon = PackedVector2Array(5.06061, -5.79628, 0.599782, 0.744879, -6.15241, 2.93022, -6.36794, 5.68283, -2.55372, 7.3995, 2.18359, 5.73213, 7.13643, 1.31215, 7.56751, -4.19307, 5.87593, -7.80402)
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_shape_entered" from="." to="." method="_on_mouse_shape_entered"]
